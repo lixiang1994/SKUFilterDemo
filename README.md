@@ -4,10 +4,10 @@
 
 ## 截图
 
-<figure class="half">
-<img src="Resources/demo1.png" width="300">
-<img src="Resources/demo2.png" width="300">
-</figure>
+<div align="center">
+<img src="Resources/demo1.png" width="300"/>
+<img src="Resources/demo2.png" width="300"/>
+</div>
 
 ## 简介
 
