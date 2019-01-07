@@ -28,8 +28,11 @@ class SKUFilter {
         didSet { reloadData() }
     }
     
+    /// 已选择集合 (默认顺序为选择顺序)
     private(set) var selecteds: [IndexPath] = []
+    /// 可选择集合
     private(set) var available: Set<IndexPath> = []
+    /// 最终结果 (全部选择完毕后即可获取到)
     private(set) var result: Any?
     
     private var allAvailable: Set<IndexPath> = []
@@ -181,8 +184,8 @@ extension SKUFilter {
             }
         }
         allAvailable
-            .filter({ $0.section == selected.section })
-            .forEach({ temps.insert($0) })
+            .filter { $0.section == selected.section }
+            .forEach { temps.insert($0) }
         return temps
     }
     
