@@ -43,7 +43,6 @@
                                                 </label>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="eoT-ua-ngg" firstAttribute="top" secondItem="oq2-yZ-Zx3" secondAttribute="top" id="hWw-HK-OL9"/>
                                             <constraint firstItem="eoT-ua-ngg" firstAttribute="leading" secondItem="oq2-yZ-Zx3" secondAttribute="leading" id="qFi-lP-8ql"/>
@@ -106,7 +105,7 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                 <state key="normal" title="确认" backgroundImage="origin">
-                                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <state key="disabled" backgroundImage="gray"/>
                                             </button>
