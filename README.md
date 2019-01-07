@@ -4,7 +4,8 @@
 
 ## 截图
 
-![iPhone8Plus](Resources/demo.png)
+![iPhone8Plus](Resources/demo1.png)
+![iPhone8Plus](Resources/demo2.png)
 
 ## 简介
 
