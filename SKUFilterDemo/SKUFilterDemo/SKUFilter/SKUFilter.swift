@@ -174,11 +174,12 @@ extension SKUFilter {
                     temps.insert(attribute.indexPath)
                     
                 } else {
-                    let flag = selecteds.contains {
+                    let flag = !selecteds.contains {
                         (condition.indexs.count > $0.section &&
-                        condition.indexs[$0.section] == $0.item) ||
-                        $0.section == attribute.indexPath.section
+                        condition.indexs[$0.section] != $0.item) &&
+                        $0.section != attribute.indexPath.section
                     }
+                    
                     if flag { temps.insert(attribute.indexPath) }
                 }
             }
